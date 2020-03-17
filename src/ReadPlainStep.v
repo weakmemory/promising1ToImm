@@ -1,5 +1,5 @@
 From hahn Require Import Hahn.
-From imm Require Import PromisingLib.
+Require Import PromisingLib.
 From Promising Require Import Configuration TView View Time Event Cell Thread Memory.
 From imm Require Import Events.
 From imm Require Import Execution.
@@ -16,21 +16,21 @@ From imm Require Import TraversalConfig.
 From imm Require Import Traversal.
 From imm Require Import SimTraversal.
 
-From imm Require Import MaxValue.
-From imm Require Import ViewRel.
+Require Import MaxValue.
+Require Import ViewRel.
 From imm Require Import ViewRelHelpers.
-From imm Require Import SimulationRel.
+Require Import SimulationRel.
 From imm Require Import Prog.
 From imm Require Import ProgToExecution.
-From imm Require Import SimulationPlainStepAux.
-From imm Require Import SimulationRelAux.
+Require Import SimulationPlainStepAux.
+Require Import SimulationRelAux.
 
-From imm Require Import PlainStepBasic.
-From imm Require Import ReadPlainStepHelper.
+Require Import PlainStepBasic.
+Require Import ReadPlainStepHelper.
 
-From imm Require Import SimState.
-From imm Require Import SimStateHelper.
-From imm Require Import PromiseLTS.
+Require Import SimState.
+Require Import SimStateHelper.
+Require Import PromiseLTS.
 From imm Require Import ProgToExecution.
 Require Import Arith.
 

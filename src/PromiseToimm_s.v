@@ -4,7 +4,7 @@
 (******************************************************************************)
 
 From hahn Require Import Hahn.
-From imm Require Import PromisingLib.
+Require Import PromisingLib.
 From Promising Require Import TView View Time Event Cell Thread Memory Configuration.
 From imm Require Import Prog.
 From imm Require Import ProgToExecution.
@@ -14,28 +14,28 @@ From imm Require Import imm_s.
 From imm Require Import Traversal.
 From imm Require Import TraversalConfig.
 From imm Require Import SimTraversal.
-From imm Require Import SimulationRel.
-From imm Require Import PlainStepBasic.
+Require Import SimulationRel.
+Require Import PlainStepBasic.
 From imm Require Import SimulationPlainStep.
-From imm Require Import MaxValue.
+Require Import MaxValue.
 From imm Require Import CombRelations.
 
-From imm Require Import SimState.
-From imm Require Import Event_imm_promise.
-From imm Require Import PromiseLTS.
-From imm Require Import PromiseOutcome.
+Require Import SimState.
+Require Import Event_imm_promise.
+Require Import PromiseLTS.
+Require Import PromiseOutcome.
 
 From imm Require Import SimTraversalProperties.
 From imm Require Import ProgToExecutionProperties.
 From imm Require Import RMWinstrProps.
 From imm Require Import TraversalCounting.
 
-From imm Require Import SimulationPlainStepAux.
-From imm Require Import CertGraphInit.
-From imm Require Import PromiseFuture.
+Require Import SimulationPlainStepAux.
+Require Import CertGraphInit.
+Require Import PromiseFuture.
 
 Require Import Omega.
-From imm Require Import MemoryAux.
+Require Import MemoryAux.
 
 Set Implicit Arguments.
 Remove Hints plus_n_O.

@@ -1,5 +1,5 @@
 From hahn Require Import Hahn.
-From imm Require Import PromisingLib.
+Require Import PromisingLib.
 From Promising Require Import TView View Time Event Cell Thread Memory Configuration.
 
 From imm Require Import Events.
@@ -9,11 +9,11 @@ From imm Require Import imm_s_hb.
 From imm Require Import imm_bob imm_s_ppo.
 
 Require Import PArith.
-From imm Require Import Event_imm_promise.
+Require Import Event_imm_promise.
 From imm Require Import CombRelations.
 From imm Require Import CombRelationsMore.
 From imm Require Import TraversalConfig.
-From imm Require Import MaxValue.
+Require Import MaxValue.
 From imm Require Import ViewRelHelpers.
 
 Set Implicit Arguments.

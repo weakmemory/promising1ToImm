@@ -1,9 +1,9 @@
 From hahn Require Import Hahn.
 Require Import Logic.IndefiniteDescription.
 From Promising Require Import Configuration TView View Time Event Cell Thread Memory.
-From imm Require Import PromisingLib.
-From imm Require Import MaxValue.
-From imm Require Import MemoryAux.
+Require Import PromisingLib.
+Require Import MaxValue.
+Require Import MemoryAux.
 
 Set Implicit Arguments.
 Remove Hints plus_n_O.
