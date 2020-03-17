@@ -1,10 +1,10 @@
 (******************************************************************************)
 (** * Definition of correspondence between IMM labels and Promise's transition labels*)
 (******************************************************************************)
-
-Require Import List Events.
+Require Import List.
+From imm Require Import Events.
 From hahn Require Import Hahn.
-Require Import PromisingLib.
+From imm Require Import PromisingLib.
 From Promising Require Import Event.
 
 Set Implicit Arguments.

@@ -1,10 +1,10 @@
 From hahn Require Import Hahn.
-Require Import PromisingLib.
+From imm Require Import PromisingLib.
 From Promising Require Import Event.
-Require Import Prog.
-Require Import ProgToExecution.
-Require Import Events.
-Require Import Event_imm_promise.
+From imm Require Import Prog.
+From imm Require Import ProgToExecution.
+From imm Require Import Events.
+From imm Require Import Event_imm_promise.
 
 Set Implicit Arguments.
 Remove Hints plus_n_O.
