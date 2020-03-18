@@ -14,11 +14,11 @@ From imm Require Import imm_s.
 From imm Require Import Traversal.
 From imm Require Import TraversalConfig.
 From imm Require Import SimTraversal.
+From imm Require Import CombRelations.
 Require Import SimulationRel.
 Require Import PlainStepBasic.
-From imm Require Import SimulationPlainStep.
+Require Import SimulationPlainStep.
 Require Import MaxValue.
-From imm Require Import CombRelations.
 
 Require Import SimState.
 Require Import Event_imm_promise.

@@ -2,3 +2,4 @@ _CoqProject
 *.vo
 *.vio
 *.glob
+*.aux
