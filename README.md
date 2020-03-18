@@ -1,4 +1,4 @@
-# Compilation correctness from Promising 1.0 [Kang-al:POPL17] to IMM
+# Compilation correctness from Promising 1.0 to IMM
 
 ## Related papers
 <img align="right" width="350" src="https://github.com/anlun/publicFiles/raw/master/pictures/spider.png">
