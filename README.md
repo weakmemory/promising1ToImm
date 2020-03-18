@@ -15,11 +15,11 @@
 ### Requirements
 * [Coq 8.9.1](https://coq.inria.fr)
 * [Hahn library](https://github.com/vafeiadis/hahn) (`coq-hahn`)
-* [The Coq development of IMM](https://github.com/weakmemory/imm) (`coq-imm`)
+* [The Coq development of IMM](https://github.com/weakmemory/imm) (`coq-imm.1.2`)
 
 ### Building Manually
 
-To build the project, one needs to install some libraries (`imm`, `promising-coq`, and `hahn`), which the project
+To build the project, one needs to install some libraries (`imm`, `promising-coq`, `hahn`, `coq-imm.1.2`), which the project
 depends on. This might be done by running `./configure`.
 The command installs `Coq` as well. After that, one needs to run `make` (or `make -j4` for a faster build).
 
