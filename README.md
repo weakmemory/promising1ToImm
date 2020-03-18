@@ -15,7 +15,7 @@
 ### Requirements
 * [Coq 8.9.1](https://coq.inria.fr)
 * [Hahn library](https://github.com/vafeiadis/hahn) (`coq-hahn`)
-* [The Coq development of A Promising Semantics for Relaxed-Memory Concurrency](https://github.com/snu-sf/promising-coq/tree/imm) (`coq-promising`)
+* [The Coq development of IMM](https://github.com/weakmemory/imm) (`coq-imm`)
 
 ### Building Manually
 
